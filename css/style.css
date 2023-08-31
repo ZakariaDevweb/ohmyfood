@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   font-family: "Roboto";
   margin: 0 0 10px 0;
@@ -70,7 +69,6 @@ body {
   }
 }
 
-/*image restaurant 1234*/
 .restaurantmenu {
   display: flex;
   justify-content: space-between;
@@ -85,12 +83,10 @@ body {
   width: 100%;
 }
 
-/* Paris, Belleville */
 main {
   margin-top: -20px;
 }
 
-/* Explorer nos resto */
 .titleexplorer {
   text-align: center;
   background: #f7f7f7;
@@ -110,7 +106,6 @@ main {
   color: white;
 }
 
-/* Réservez le menu qui vous convient */
 .city {
   display: flex;
   align-items: center;
@@ -121,7 +116,6 @@ main {
   background: #EAEAEA;
 }
 
-/* fonctionnement */
 .fonctionnement {
   display: flex;
   align-items: center;
@@ -383,7 +377,6 @@ section h2 {
   transition: 0.5s ease-in-out;
 }
 
-/* ohmyfood */
 header {
   font-family: "Shrikhand", cursive;
   text-align: center;
@@ -435,7 +428,6 @@ footer article i {
   margin-right: 10px;
 }
 
-/* commander restaurant 1234 */
 .titlebutton {
   width: 220px;
   height: 50px;
@@ -596,7 +588,6 @@ footer article i {
   transition-property: font-weight, color;
   transition-duration: 1s;
   background-image: linear-gradient(#FF79DA, #9356DC);
-  -webkit-background-clip: text;
 }
 .restotext .coeurPlein:hover {
   transition: opacity 0.3s ease-in-out;
@@ -618,7 +609,7 @@ footer article i {
   opacity: 0;
   transform: translateY(-50%);
   background-image: linear-gradient(#FF79DA, #9356DC);
-  -webkit-background-clip: text;
+
 }
 .titremenu .coeurPlein:hover {
   opacity: 1;
