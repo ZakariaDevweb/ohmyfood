@@ -619,18 +619,20 @@ footer article i {
   left: 76%;
   top: 4.3%;
 }
-
 @media screen and (min-width: 1024px) and (max-width: 4440px) {
-  body .affichage {
-    max-width: 100%;
-    align-content: center;
-    margin: 0;
-    flex-direction: flex;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  @media screen and (min-width: 1024px) and (max-width: 4440px) {
+    body .affichage {
+      max-width: 100%;
+      text-align: center;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
+  
+  
   .restaurantmenu {
     margin-left: 150px;
     width: 78%;
