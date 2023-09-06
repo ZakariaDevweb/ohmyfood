@@ -1,0 +1,24 @@
+.btn{
+    position:relative;
+    height: 50px;
+    border-radius: 25px;
+    background:$color-gradient;
+    @include shadow;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 18px 0 18px;
+    color:white;
+    font-weight: 500;
+    .btn__link{
+        position: absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        width:100%;
+    }
+    &:hover{
+        background:linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),linear-gradient(200.64deg, $color-primaire -5.2%, $color-secondaire 110.74%);
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+    }
+}
